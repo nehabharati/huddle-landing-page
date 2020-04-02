@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/bg-desktop.svg");
+    background-color:  hsl(257, 40%, 49%);
+    font-family: "Open Sans",monospace;
+}
+
+@media only screen and (max-width:600px){
+    body{
+        background-image: url("../icons/bg-mobile.svg");   
+    }
+}
+
+h2{
+    margin-left: 30px;
+}
+
+button{
+    border-radius: 40px;
+    background-color: white;
+    padding:15px 10px;
+    width:150px;
+    border: none;
+    color:#6641aa;
+    font-size:15px;
+}
+
+footer{
+    width: 100%;
+}
